@@ -2,6 +2,8 @@ import os
 
 basedir = os.path.abspath(os.path.dirname(__name__))
 
+
+
 class Config(object):
     HOST = str(os.environ.get('DB_HOST'))
     DATABASE = str(os.environ.get('DB_DATABASE'))
