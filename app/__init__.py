@@ -10,5 +10,5 @@ db =  SQLAlchemy(app)
 migrate = Migrate(app, db)
 migrate.init_app(app, db)
 
+from app.models import user, material, komitmen, officer, pekerjaan, pengguna, picking, unit
 from app import routes
-from app.models import user
